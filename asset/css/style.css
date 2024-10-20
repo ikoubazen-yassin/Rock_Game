@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+html {
+    font-size: 28px;
+}
+:root {
+    --main-color:#ce3e4d;
+    --main-alt-color:#bb202f;
+    
+
+}
+body {
+ background-color: aliceblue;  
+}
+/* Start Game STYLE */
+.game .choicies_board .chose {
+    padding: 10px 20px;
+    margin-left: 12px;
+    border: 2px solid var(--main-alt-color);
+    color:var(--main-color);
+    outline: none;
+    transition: .3s;
+}
+.game .choicies_board .chose:hover {
+    border-color: #f1051c;
+    color: #f1051c;
+}
+.result {
+    color: var(--main-alt-color);
+}
+.btn_playAgain {
+    margin-top: 15px;
+    padding: 10px 24px;
+    border-radius: 6px;
+    border: none;
+    background-color: var(--main-alt-color);
+    color: #fff;
+    font-weight: bold;
+    transition: .3s;
+}
+.btn_playAgain:hover {
+    opacity: .8;
+}
+.countDown::before {
+    content: 'Rounde Time : ';
+}
+/* Overlay action */
+.game .overlay {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.527);
+    z-index: 100;
+    display: none;
+}
+.game .overlay .popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    min-width:450px ;
+    border-radius: 10px;
+    background-color: #fff;
+    animation: smoth 1s forwards;
+}
+
+@keyframes smoth {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+}
+
+/* End Game STYLE */

@@ -1,0 +1,34 @@
+// Hello Dev World (Teacher);
+// Today i'm gonna explaning some tips in this project
+-- 1 Who It Builds
+-- 2 who I got design and html structer
+-- 3 Project Logic And Some Tricks Enhancement
+-- 4 Clean Code And Efficient
+___ Starting The Code explaning_______
+1_HTML {
+    * title : h1
+   * scrore_Board Div
+   * Chioces_Board
+   * Chioces_Result_text
+   * Count Down
+   * Button{PlayAgain}
+}
+2_JS {
+  // We have 8 Function That do A Unique Action Or Achieve Goal
+    {
+   Function-name :PlayGame ();
+    Desc : ["its important func it's the main
+    that let  everthing work.
+   Logic_Func: [
+    "
+    // We have 3 Deffernt Btns(Value Is Unique) Each Btn Have An Id
+    ok , cool , Each singal Btn It letining to  an event (Click),
+    when i click what happen > I share the id = x with the function Play PlayGame
+    depanding On this event I Start My Own Idea
+    ok so if i wanna start my game score  I should make the user start first and 
+    .than getting computer chioce from Funct named By (Function Computer_choice)
+     "
+   ]
+    "]
+    }
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Game By Yassin</title>
+    <!-- Start bootstrap Files -->
+     <link rel="stylesheet" href="./asset/css/bootstrap.min.css.map">
+     <link rel="stylesheet" href="./asset/css/bootstrap.min.css">
+    <!-- End bootstrap Files -->
+    <!-- Start Main Css File -->
+     <link rel="stylesheet" href="./asset/css/style.css">
+    <!-- End Main Css File -->
+</head>
+<body>
+    
+
+    <!-- Start Game -->
+   <div class="game ">
+    <div class="container text-center">
+      <div class="overlay">
+        <div class="popup">
+        <h3 class="title mb-0">Game Over (:</h3>
+        <small class="m-0">Hope You Smile.</small>
+        <div class="result_general border-2 border-top border-bottom d-flex justify-content-between align-items-center my-4">
+        <span class="player rounded  border border-danger text-danger mt-3 mb-3 px-3 py-2  fs-6"></span> <span class="fw-bold">VS</span>
+        <span class="computer rounded  border border-danger text-danger mt-3 mb-3 px-3 py-2 fs-6"></span></div>
+        <div class="WINNER_RESULT">
+          <span class="winner-popup rounded me-4 border border-danger text-danger px-3 py-2">winnir Is : computer</span>
+        <button class=" btn_playAgain" onclick="resetAll();">Play Again</button>
+        </div>
+        </div>
+      </div>
+        <h2 class="display-4 fw-bold text-main text-center">Rock,Paper,Scissors</h2>
+      <div class="score_board d-flex justify-content-center my-4">
+        <span class="player_score rounded me-4 border border-danger text-danger px-4">Player:0</span>
+    
+        <span class="computer_score rounded border border-danger text-danger px-4 ">Computer:0</span>
+     
+      </div>
+      <div class="choicies_board mb-3">
+        <button id="rock"  class="chose">Rock</button>
+        <button id="paper"  class="chose">Paper</button>
+        <button id="scissors" class="chose">Scissor</button>
+      </div>
+      <div class="result text-center my-4">
+        choose Your weapon!
+      </div>
+      <span class="countDown d-block mb-3 text-danger fw-bold ">30</span>
+     
+    </div>
+   </div>
+    <!-- End Game -->
+
+
+
+<!-- Start Main js BST FILES -->
+    <script src="./asset/js/bootstrap.bundle.min.js.map"></script>
+    <script src="./asset/js/bootstrap.bundle.min.js"></script>
+<!-- End Main js BST FILES -->
+    <!-- Start Main Js File -->
+     <script src="/asset/js/logic.js"></script>
+    <!-- End Main Js File -->
+</body>
+</html>
